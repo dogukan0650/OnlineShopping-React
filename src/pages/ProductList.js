@@ -148,6 +148,7 @@ export default function ProductList() {
                                     <ItemContent>
                                         <ItemHeader>{product.productName}</ItemHeader>
                                         <ItemMeta>
+                                            
                                             <div className='flex-container-vertical'>
                                                 <span>{product.price} $ </span>
                                                 <span> Quantity : {product.quantity}</span>
