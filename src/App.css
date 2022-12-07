@@ -1,0 +1,71 @@
+/*
+.Dashboard_Categories {
+  background: rgba(5, 68, 104, 0.598);
+  position: fixed;
+  margin-top: 3em;
+  top: 0;
+  left: 0;
+  width: 225px;
+  height: 100%;
+  padding: 20px 0;
+  transition: all 0.5s ease;
+}
+
+.Dashboard_ProductList {
+  background: rgba(5, 68, 104, 0.598);
+  margin-left: 10em;
+}
+*/
+
+.roundedCorner {
+  border-radius: 125px;
+}
+
+.flex-container {
+  display: flex;
+  justify-items: space-between;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+
+.flex-container-vertical {
+  display: flex;
+  justify-items: space-between;
+  flex-direction: column;
+  margin-left: 4em;
+  margin-right: 4em;
+  border-radius: 25px;
+  
+}
+.flex-container-horizontal {
+  display: flex;
+  justify-items: space-between;
+  flex-direction: row;
+  border-radius: 25px;
+  
+}
+
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ui.celled.table {
+  background-color: blueviolet;
+}
+
+.App {
+  text-align: center;
+} 
+
+.ui.main.container {
+  margin-top: 4em;
+}
+
+.allignRight{
+  text-align: right;
+}
+.allignLeft{
+  text-align: left;
+}
